@@ -78,7 +78,6 @@ const App = () => {
       if (!result.destination) {
         return;
       }    
-      console.log(result)  
       dispatch({
         type: "MOVE",
         from: result.source.droppableId,
@@ -301,12 +300,7 @@ const App = () => {
             );
           }}
         </Droppable>
-
-
-
         </div>
-
-        <prueba></prueba>
       </DragDropContext>
     </div>
   );
